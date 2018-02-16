@@ -12,7 +12,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">This is my Hello ReactJS by lcassiol</h1>
         </header>
-        <Product/>
+        <Product name="Android" price={197}/>
+        <Product name="iOS" price={230}/>
+        <Product name="Windows" price={300}/>
+
       </div>
     );
   }
