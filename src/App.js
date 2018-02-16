@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Product from './Product'
+import ProductList from './ProductList'
 
 class App extends Component {
   render() {
@@ -12,10 +12,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">This is my Hello ReactJS by lcassiol</h1>
         </header>
-        <Product name="Android" price={197}/>
-        <Product name="iOS" price={230}/>
-        <Product name="Windows" price={300}/>
-
+        <ProductList/>
       </div>
     );
   }
