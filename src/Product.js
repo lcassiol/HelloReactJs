@@ -11,6 +11,10 @@ class Product extends React.Component {
     this.setState({qty : this.state.qty + 1});
   }
 
+  show = () =>{
+      this.props.handleShow(this.props.name);
+  }
+
   render() {
     return (
       <div>
