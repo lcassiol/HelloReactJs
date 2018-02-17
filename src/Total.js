@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './App.css';
 
 class Total extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="Total">
         <h3>Total Cash: ${this.props.total}</h3>
       </div>
     );

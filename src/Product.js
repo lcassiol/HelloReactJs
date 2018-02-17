@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './App.css';
+
 class Product extends React.Component {
 
   constructor(props) {
@@ -18,7 +20,7 @@ class Product extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="Product">
           <p>{this.props.name} - ${this.props.price}</p>
           <button onClick={this.buy}>Buy</button>
           <button onClick={this.show}>Show</button>

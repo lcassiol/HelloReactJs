@@ -17,6 +17,19 @@
   font-size: 1.5em;
 }
 
+.Product{
+  float:left;
+  margin-left: 17%;
+  margin-top: 8px;
+  padding:20px;
+  border:1px solid gray;
+}
+
+.Total{
+  clear:both;
+  padding:60px;
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
